@@ -1,14 +1,14 @@
-# PRD — {{PROJECT_NAME}} Landing Page
+# PRD — Thomson Reserve Landing Page
 
 **Status:** Draft — update before launch
-**Developer:** {{DEVELOPER}}
+**Developer:** UOL Group, Singapore Land Group & CapitaLand
 **Last reviewed:** — update with actual date
 
 ---
 
 ## 1. Summary
 
-A single-page marketing site for **{{PROJECT_NAME}}**, a {{TENURE}} residential development at {{ADDRESS}}, {{DISTRICT}}, Singapore, developed by **{{DEVELOPER}}**. The site exists to capture qualified buyer enquiries and route them to the developer-appointed marketing agent.
+A single-page marketing site for **Thomson Reserve**, a 99-year leasehold residential development at Bright Hill Drive, District 20, Singapore, developed by **UOL Group, Singapore Land Group & CapitaLand**. The site exists to capture qualified buyer enquiries and route them to the developer-appointed marketing agent.
 
 This is not a brochure. It is the digital first impression — and for many buyers, the only impression before they decide whether to request a showflat appointment.
 
@@ -16,14 +16,14 @@ This is not a brochure. It is the digital first impression — and for many buye
 
 | Field | Detail |
 |---|---|
-| Project name | {{PROJECT_NAME}} |
-| Developer | {{DEVELOPER}} |
-| Address | {{ADDRESS}}, {{DISTRICT}} |
-| Tenure | {{TENURE}} |
-| Total units | {{UNIT_COUNT}} residential units |
-| Nearest MRT | {{NEAREST_MRT}} |
-| Estimated TOP | {{EST_TOP}} |
-| Indicative pricing | {{PRICE_FROM}} |
+| Project name | Thomson Reserve |
+| Developer | UOL Group, Singapore Land Group & CapitaLand |
+| Address | Bright Hill Drive, District 20 |
+| Tenure | 99-year leasehold |
+| Total units | 1,268 residential units |
+| Nearest MRT | Bright Hill MRT (TEL/CRL interchange) |
+| Estimated TOP | 2029 |
+| Indicative pricing | From ~$2,300 psf (indicative) |
 
 ---
 
@@ -32,19 +32,19 @@ This is not a brochure. It is the digital first impression — and for many buye
 ### Primary
 > Update with project-specific buyer profile before launch.
 
-Likely HDB upgraders and families looking for a private property in {{DISTRICT}}. They are comparing connectivity, school proximity, and PSF value across 2–4 new launches.
+Likely HDB upgraders and families looking for a private property in District 20. They are comparing connectivity, school proximity, and PSF value across 2–4 new launches.
 
 What they want to know in 60 seconds:
 1. Where is it (district, street, MRT proximity)?
-2. Tenure ({{TENURE}}) and what that means for price?
-3. Who built it ({{DEVELOPER}}) and what is their track record?
+2. Tenure (99-year leasehold) and what that means for price?
+3. Who built it (UOL Group, Singapore Land Group & CapitaLand) and what is their track record?
 4. What does it look like and what layouts are available?
-5. What does a typical unit cost ({{PRICE_FROM}})?
+5. What does a typical unit cost (From ~$2,300 psf (indicative))?
 
 ### Secondary
 > Update with project-specific secondary audience before launch.
 
-Investors and upgraders in the surrounding district looking for rental yield plays near {{NEAREST_MRT}}.
+Investors and upgraders in the surrounding district looking for rental yield plays near Bright Hill MRT (TEL/CRL interchange).
 
 ---
 
@@ -76,7 +76,7 @@ Investors and upgraders in the surrounding district looking for rental yield pla
 - **Floor plans** — unit mix table with indicative sizing and pricing
 - **Lifestyle** — nature and amenities section
 - **Location** — aerial site plan, proximity table (Transit / Schools / Lifestyle)
-- **Developer** — {{DEVELOPER}} card with logo and track record
+- **Developer** — UOL Group, Singapore Land Group & CapitaLand card with logo and track record
 - **Enquiry form** — name, mobile, email, typology preference, message, DNC consent
 - **Legal modals** — Disclaimer and Privacy Policy as full-text scrollable overlays
 - **Footer** — brand block, navigation, contact, legal links
@@ -95,10 +95,10 @@ Investors and upgraders in the surrounding district looking for rental yield pla
 ## 5. Functional Requirements
 
 ### FR-1: Hero must communicate five key facts within first scroll
-- Project name ({{PROJECT_NAME}})
-- Address ({{ADDRESS}}, {{DISTRICT}})
-- Tenure ({{TENURE}})
-- Unit count ({{UNIT_COUNT}} residences)
+- Project name (Thomson Reserve)
+- Address (Bright Hill Drive, District 20)
+- Tenure (99-year leasehold)
+- Unit count (1,268 residences)
 - A primary CTA ("Book a Showflat Visit")
 
 ### FR-2: Image carousel
@@ -144,7 +144,7 @@ All pricing indicative; show "From $X" where available, otherwise "POA."
 > Update with project-specific MRT, school, and lifestyle data.
 
 **Transit**
-- {{NEAREST_MRT}} — nearest MRT
+- Bright Hill MRT (TEL/CRL interchange) — nearest MRT
 
 **Schools** — update with schools within 1–2 km
 
@@ -162,10 +162,10 @@ Lead with location, connectivity, and lifestyle. Avoid launch hyperbole.
 ## 7. Non-Functional Requirements
 
 ### Brand & visual
-- Primary colour: `{{PRIMARY_COLOR}}`
-- Secondary colour: `{{SECONDARY_COLOR}}`
-- Accent colour: `{{ACCENT_COLOR}}`
-- Heading font: {{FONT_HEADING}} · Body font: {{FONT_BODY}}
+- Primary colour: `#1A2E1E`
+- Secondary colour: `#F5F0E8`
+- Accent colour: `#C4A050`
+- Heading font: Cormorant Garamond · Body font: Jost
 
 ### Accessibility (WCAG 2.1 AA target)
 - Colour contrast ≥ 4.5:1 for body text, 3:1 for large text
@@ -188,7 +188,7 @@ Lead with location, connectivity, and lifestyle. Avoid launch hyperbole.
 - No build step, no bundler
 - Deployable to any static host (Vercel, Netlify, Cloudflare Pages, S3+CDN)
 - Form submission wired to handler before production launch
-- Project URL: {{PROJECT_URL}}
+- Project URL: https://www.thethomson-reserve.com.sg/
 
 ---
 
@@ -197,9 +197,9 @@ Lead with location, connectivity, and lifestyle. Avoid launch hyperbole.
 | # | Risk / question | Mitigation |
 |---|---|---|
 | R-1 | Form posts nowhere — no backend wired yet | Must integrate with CRM / email handler before launch |
-| R-2 | Pricing not yet publicly released | Label all pricing "indicative — {{PRICE_FROM}}" or "POA" |
+| R-2 | Pricing not yet publicly released | Label all pricing "indicative — From ~$2,300 psf (indicative)" or "POA" |
 | R-3 | Imagery is artist's impression | "Artist's Impression" caption mandatory on all renders |
-| R-4 | TOP estimated {{EST_TOP}} — may shift | Label as "Est. {{EST_TOP}}" — never "guaranteed" |
+| R-4 | TOP estimated 2029 — may shift | Label as "Est. 2029" — never "guaranteed" |
 | R-5 | Marketing agent attribution not yet confirmed | Placeholder in footer — must be filled before public launch |
 | R-6 | DNC compliance language may need legal review | Recommend PDPA-aware legal review before launch |
 

@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-> Instructions for Claude (and other AI assistants) when working on the {{PROJECT_NAME}} landing page.
+> Instructions for Claude (and other AI assistants) when working on the Thomson Reserve landing page.
 
 ## Project at a glance
 
-Single-file static HTML landing page for **{{PROJECT_NAME}}**, a {{TENURE}} residential development at {{ADDRESS}}, {{DISTRICT}}, Singapore. Developed by {{DEVELOPER}}. Built for lead generation — the goal is showflat appointment bookings, not closing sales on the page.
+Single-file static HTML landing page for **Thomson Reserve**, a 99-year leasehold residential development at Bright Hill Drive, District 20, Singapore. Developed by UOL Group, Singapore Land Group & CapitaLand. Built for lead generation — the goal is showflat appointment bookings, not closing sales on the page.
 
 ```
 project root/
@@ -19,14 +19,14 @@ project root/
 
 | Field | Detail |
 |---|---|
-| Project name | {{PROJECT_NAME}} |
-| Developer | {{DEVELOPER}} |
-| Address | {{ADDRESS}}, {{DISTRICT}} |
-| Tenure | {{TENURE}} |
-| Total units | {{UNIT_COUNT}} residential units |
-| Nearest MRT | {{NEAREST_MRT}} |
-| Est. TOP | {{EST_TOP}} |
-| Indicative pricing | {{PRICE_FROM}} |
+| Project name | Thomson Reserve |
+| Developer | UOL Group, Singapore Land Group & CapitaLand |
+| Address | Bright Hill Drive, District 20 |
+| Tenure | 99-year leasehold |
+| Total units | 1,268 residential units |
+| Nearest MRT | Bright Hill MRT (TEL/CRL interchange) |
+| Est. TOP | 2029 |
+| Indicative pricing | From ~$2,300 psf (indicative) |
 
 ## Unit mix
 
@@ -34,7 +34,7 @@ project root/
 
 | Type | Size | Pricing |
 |---|---|---|
-| TBC | TBC | {{PRICE_FROM}} |
+| TBC | TBC | From ~$2,300 psf (indicative) |
 
 All pricing must be labelled **"indicative"** until the official price list is released.
 
@@ -62,11 +62,11 @@ Project-specific tone to be defined. General guidelines:
 
 | Token | Value | Use |
 |---|---|---|
-| `--espresso` (primary) | `{{PRIMARY_COLOR}}` | Hero bg, headlines, dark sections |
-| `--cream` (secondary) | `{{SECONDARY_COLOR}}` | Section backgrounds, button text |
-| `--gold` (accent) | `{{ACCENT_COLOR}}` | Buttons, borders, accents |
+| `--espresso` (primary) | `#1A2E1E` | Hero bg, headlines, dark sections |
+| `--cream` (secondary) | `#F5F0E8` | Section backgrounds, button text |
+| `--gold` (accent) | `#C4A050` | Buttons, borders, accents |
 
-Heading font: **{{FONT_HEADING}}** · Body font: **{{FONT_BODY}}**
+Heading font: **Cormorant Garamond** · Body font: **Jost**
 
 ## Code conventions
 
