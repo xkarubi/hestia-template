@@ -57,7 +57,11 @@
 - [ ] Verify mobile layout on iOS and Android
 - [ ] Run Lighthouse — target Performance ≥ 85, Accessibility ≥ 90
 
-## 9. Deploy
+## 9. Documentation
+- [ ] Update `CLAUDE.md` — project name, developer, address, unit mix, pricing, agent details, and contact number
+- [ ] Update `PRD.md` — confirm project brief, target audience, conversion goals, and launch timeline
+
+## 10. Deploy
 - [ ] Configure deploy script in `~/.landing-factory/config.json`
 - [ ] Run deploy and confirm live URL
 - [ ] Share live URL with client for sign-off
