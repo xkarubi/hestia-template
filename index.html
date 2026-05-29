@@ -3,30 +3,30 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>{{PROJECT_NAME}} | New Launch Condo in D26 by Kingsford Development</title>
-<meta name="description" content="Lentor Gardens Residences — a 99-year leasehold development in District 26 by Kingsford Development. 499 units, 2–5BR Strata Terrace, steps from Lentor MRT (TE5)." />
+<title>{{PROJECT_NAME}} | New Launch Condo in {{DISTRICT}} by {{DEVELOPER}}</title>
+<meta name="description" content="{{PROJECT_DESC}}" />
 <meta name="robots" content="index, follow" />
-<meta name="keywords" content="Lentor Gardens Residences, new launch condo Singapore, District 26 condo, Kingsford Development, Lentor MRT condo, Upper Thomson condo, D26 new launch, 99-year leasehold Singapore, Lentor Garden condo, new condo Singapore 2025" />
-<meta name="author" content="Kingsford Development" />
+<meta name="keywords" content="{{PROJECT_NAME}}, new launch condo Singapore, {{DISTRICT}} condo, {{DEVELOPER}}, {{NEAREST_MRT}} condo, new condo Singapore 2026" />
+<meta name="author" content="{{DEVELOPER}}" />
 <link rel="canonical" href="{{PROJECT_URL}}" />
 <link rel="icon" type="image/png" href="{{LOGO_URL}}" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="{{PROJECT_NAME}}" />
-<meta property="og:title" content="{{PROJECT_NAME}} | New Launch Condo in D26 by Kingsford Development" />
-<meta property="og:description" content="Lentor Gardens Residences — a 99-year leasehold development in District 26 by Kingsford Development. 499 units, 2–5BR Strata Terrace, steps from Lentor MRT (TE5)." />
+<meta property="og:title" content="{{PROJECT_NAME}} | New Launch Condo in {{DISTRICT}} by {{DEVELOPER}}" />
+<meta property="og:description" content="{{PROJECT_DESC}}" />
 <meta property="og:url" content="{{PROJECT_URL}}" />
-<meta property="og:image" content="https://lentorgardensresidences.developerdirect.sg/assets/hero-1.jpeg" />
+<meta property="og:image" content="https://{{PROJECT_URL}}/assets/hero-1.jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:locale" content="en_SG" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{PROJECT_NAME}} | New Launch Condo in D26 by Kingsford Development" />
-<meta name="twitter:description" content="Lentor Gardens Residences — a 99-year leasehold development in District 26 by Kingsford Development. 499 units, 2–5BR Strata Terrace, steps from Lentor MRT (TE5)." />
-<meta name="twitter:image" content="https://lentorgardensresidences.developerdirect.sg/assets/hero-1.jpeg" />
+<meta name="twitter:title" content="{{PROJECT_NAME}} | New Launch Condo in {{DISTRICT}} by {{DEVELOPER}}" />
+<meta name="twitter:description" content="{{PROJECT_DESC}}" />
+<meta name="twitter:image" content="{{PROJECT_URL}}assets/hero-1.jpeg" />
 
 <!-- Schema.org Structured Data -->
 <script type="application/ld+json">
@@ -34,23 +34,22 @@
   "@context": "https://schema.org",
   "@type": "Residence",
   "name": "{{PROJECT_NAME}}",
-  "description": "Lentor Gardens Residences is a 99-year leasehold residential development in District 26, Singapore, by Kingsford Development. 499 units across 4 blocks, offering 2BR to 5BR Strata Terrace units, steps from Lentor MRT (TE5).",
+  "description": "{{PROJECT_DESC}}",
   "url": "{{PROJECT_URL}}",
-  "image": "https://lentorgardensresidences.developerdirect.sg/assets/hero-1.jpeg",
+  "image": "{{PROJECT_URL}}assets/hero-1.jpeg",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Lentor Garden",
+    "streetAddress": "{{ADDRESS}}",
     "addressLocality": "Singapore",
-    "addressRegion": "D26",
+    "addressRegion": "{{DISTRICT}}",
     "addressCountry": "SG"
   },
-  "numberOfRooms": "499",
+  "numberOfRooms": "{{UNIT_COUNT}}",
   "petsAllowed": false,
   "tourBookingPage": "{{PROJECT_URL}}#enquire",
   "brand": {
     "@type": "Organization",
-    "name": "Kingsford Development",
-    "alternateName": "Kingsford Lentor Project Pte Ltd"
+    "name": "{{DEVELOPER}}"
   }
 }
 </script>
@@ -61,7 +60,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  if (window.location.hostname !== 'lentorgarden.sg' && window.location.hostname !== 'www.lentorgarden.sg') {
+  if (true) {
     gtag('config', 'AW-734891155');
   }
 </script>
@@ -1284,15 +1283,15 @@
 <main id="top">
 
   <!-- ============ HERO ============ -->
-  <section class="hero" aria-label="Lentor Gardens Residences showcase">
+  <section class="hero" aria-label="{{PROJECT_NAME}} showcase">
 
     <!-- Image carousel (background layer) -->
-    <div class="hero-carousel" id="heroCarousel" aria-roledescription="carousel" aria-label="Lentor Gardens Residences property imagery">
-      <div class="hero-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 3 — Lentor Gardens Residences facade"
+    <div class="hero-carousel" id="heroCarousel" aria-roledescription="carousel" aria-label="{{PROJECT_NAME}} property imagery">
+      <div class="hero-slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 3 — {{PROJECT_NAME}} facade"
            style="background-image: url('assets/hero-1.jpeg');"></div>
-      <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 3 — Lentor Hillock Park aerial view"
+      <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 3 — {{PROJECT_NAME}} aerial view"
            style="background-image: url('assets/hero-2.jpeg');"></div>
-      <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 of 3 — Lentor Gardens Residences tower"
+      <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 of 3 — {{PROJECT_NAME}} tower"
            style="background-image: url('assets/hero-3.jpeg');"></div>
     </div>
 
@@ -1312,9 +1311,9 @@
     </div>
 
     <div class="hero-inner">
-      <span class="eyebrow"><span class="dot"></span>New Launch · District 26</span>
+      <span class="eyebrow"><span class="dot"></span>New Launch · {{DISTRICT}}</span>
       <h1>{{TAGLINE}}</h1>
-      <p class="hero-sub">499 homes by Kingsford Development at Lentor Garden, District 26 — beside Lentor Hillock Park and a short walk from Lentor MRT.</p>
+      <p class="hero-sub">{{UNIT_COUNT}} homes by {{DEVELOPER}} at {{ADDRESS}}, {{DISTRICT}} — steps from {{NEAREST_MRT}}.</p>
 
       <div class="hero-ctas">
         <a href="#enquiry" class="btn btn-primary btn-lg">Book a Showflat Visit</a>
@@ -1327,22 +1326,22 @@
     <div class="container">
       <div class="section-head">
         <div class="section-eyebrow">Project Highlights</div>
-        <h2>Four Blocks, One Neighbourhood — Right Where Nature Meets the City.</h2>
-        <p>A nature-fronted address in District 26, built for families who want greenery, connectivity, and lasting value.</p>
+        <h2>{{PROJECT_NAME}} — {{DISTRICT}}</h2>
+        <p>{{PROJECT_DESC}}</p>
       </div>
       <div class="highlight-grid">
         <div class="highlight-card">
           <div class="highlight-icon">
-            <img src="assets/impression-1.jpeg" alt="Lentor Gardens Residences community" />
+            <img src="assets/impression-1.jpeg" alt="{{PROJECT_NAME}} community" />
           </div>
           <div class="highlight-card-body">
             <h3>Community Scale</h3>
-            <p>4 Blocks · 499 Units · 2BR to 5BR Strata Terrace · Est. TOP Q4 2029</p>
+            <p>{{UNIT_COUNT}} Units · {{TENURE}} · Est. TOP {{EST_TOP}}</p>
           </div>
         </div>
         <div class="highlight-card">
           <div class="highlight-icon">
-            <img src="assets/school.jpeg" alt="Reputable schools near Lentor Gardens Residences" />
+            <img src="assets/school.jpeg" alt="Reputable schools near {{PROJECT_NAME}}" />
           </div>
           <div class="highlight-card-body">
             <h3>Reputable School Belt</h3>
@@ -1355,7 +1354,7 @@
           </div>
           <div class="highlight-card-body">
             <h3>Walk to MRT</h3>
-            <p>~5 min walk to Lentor MRT (TE5, Thomson–East Coast Line)</p>
+            <p>Walk to {{NEAREST_MRT}}</p>
           </div>
         </div>
       </div>
@@ -1370,7 +1369,7 @@
         <h2>Site Plan</h2>
       </div>
       <div class="site-plan-block">
-        <img src="assets/site-plan.jpeg" alt="Lentor Gardens Residences site plan layout" class="site-plan-image" />
+        <img src="assets/site-plan.jpeg" alt="{{PROJECT_NAME}} site plan layout" class="site-plan-image" />
       </div>
       <div class="fp-cta" style="margin-top: 36px;">
         <a href="#enquiry" class="btn btn-dark">Get Full Site Plan</a>
@@ -1382,7 +1381,7 @@
         <div class="section-eyebrow">Unit Mix &amp; Pricing</div>
         <h2>Floor Plans</h2>
       </div>
-      <p class="fp-intro">From compact 2-bedroom homes to rare 5-bedroom Strata Terraces, Lentor Gardens Residences offers a balanced mix of layouts designed for growing families and long-term residents in a nature-adjacent setting.</p>
+      <p class="fp-intro">{{PROJECT_NAME}} offers a balanced mix of layouts designed for growing families and long-term residents in a nature-adjacent setting. All pricing is {{PRICE_FROM}}.</p>
 
       <div class="fp-grid">
         <div class="fp-card">
@@ -1428,8 +1427,7 @@
       <div class="lifestyle-content">
         <div class="section-eyebrow">Nature &amp; Lifestyle</div>
         <h2>Life at the Edge of the Park</h2>
-        <p>Lentor Hillock Park is right at your doorstep. Thomson Nature Park and Lower Peirce Reservoir are within easy reach — a rare measure of greenery for an urban address.</p>
-        <p>Lentor Modern Integrated Mall is right next door for everyday needs, with Orchard Road and the CBD just 15 minutes away.</p>
+        <p>{{LOCATION_DESC}}</p>
         <a href="#enquiry" class="btn btn-primary">Download E-Brochure</a>
       </div>
     </div>
@@ -1440,12 +1438,12 @@
     <div class="container">
       <div class="section-head">
         <div class="section-eyebrow">Location</div>
-        <h2>Lentor Garden, District 26 — Upper Thomson / Mandai</h2>
+        <h2>{{ADDRESS}}, {{DISTRICT}}</h2>
       </div>
-      <div class="map-block" role="img" aria-label="Aerial site plan showing Lentor Gardens Residences alongside Lentor MRT, Lentor Hillock Park and Lentor Modern Mall">
-        <img src="assets/location.jpeg" alt="Lentor Gardens Residences location map" class="map-image" />
+      <div class="map-block" role="img" aria-label="{{PROJECT_NAME}} location map">
+        <img src="assets/location.jpeg" alt="{{PROJECT_NAME}} location map" class="map-image" />
       </div>
-      <p class="location-desc">Lentor MRT (TE5) is a ~5 min walk from your door. The future Bright Hill interchange (TE7/CR13) is just 2 stops away, with direct CTE and SLE access for island-wide reach.</p>
+      <p class="location-desc">{{LOCATION_DESC}}</p>
     </div>
   </section>
 
@@ -1454,10 +1452,9 @@
     <div class="container">
       <div class="overview-inner">
         <div class="section-eyebrow">Project Overview</div>
-        <h2>Lentor Gardens Residences — 99-Year Leasehold in District 26</h2>
+        <h2>{{PROJECT_NAME}} — {{TENURE}} in {{DISTRICT}}</h2>
         <div class="gold-divider"></div>
-        <p>Set on a ~20,639 sqm site at Lentor Garden, Kingsford Development has created a community of 499 homes across four blocks — three 16-storey towers and one 8-storey block — with ground-floor retail and an integrated childcare centre.</p>
-        <p>With Lentor Hillock Park at the door and Lentor MRT (TE5) minutes away, this 99-year leasehold address is built for HDB upgraders and families who value greenery, community, and long-term liveability.</p>
+        <p>{{PROJECT_DESC}}</p>
       </div>
     </div>
   </section>
@@ -1470,8 +1467,8 @@
         <div class="sp-row">
           <div class="sp-text">
             <div class="section-eyebrow">Nature at the Door</div>
-            <h3>Lentor Hillock Park &amp; Thomson Nature Reserve</h3>
-            <p>Lentor Hillock Park opens directly from your doorstep. Thomson Nature Park and the Central Catchment Nature Reserve are all within easy reach.</p>
+            <h3>Nature &amp; Green Corridors</h3>
+            <p>{{LOCATION_DESC}}</p>
             <p>It is the kind of urban-nature balance you rarely find this close to the city.</p>
           </div>
           <div class="sp-media m1"></div>
@@ -1480,8 +1477,8 @@
         <div class="sp-row reverse">
           <div class="sp-text">
             <div class="section-eyebrow">Connectivity</div>
-            <h3>Lentor MRT &amp; Island-Wide Access</h3>
-            <p>Lentor MRT (TE5) is ~5 min on foot. Springleaf (TE4) and Mayflower (TE6) are one stop each on the Thomson–East Coast Line. The upcoming Bright Hill interchange (TE7/CR13) extends cross-island reach further, alongside direct CTE and SLE expressway access.</p>
+            <h3>{{NEAREST_MRT}} &amp; Island-Wide Access</h3>
+            <p>{{LOCATION_DESC}}</p>
           </div>
           <div class="sp-media m2"></div>
         </div>
@@ -1489,8 +1486,8 @@
         <div class="sp-row">
           <div class="sp-text">
             <div class="section-eyebrow">The Developer</div>
-            <h3>Kingsford Development</h3>
-            <p>Kingsford Development (Kingsford Lentor Project Pte Ltd) brings Lentor Gardens Residences to life — a developer with a track record of quality residential projects across Singapore, with a focus on considered design and community-centred living.</p>
+            <h3>{{DEVELOPER}}</h3>
+            <p>{{DEVELOPER_DESC}}</p>
           </div>
           <div class="sp-media m3">
             <div class="developer-logos">
@@ -1510,19 +1507,19 @@
     <div class="container">
       <div class="gallery-grid">
         <div class="gallery-item" data-index="0" role="button" tabindex="0" aria-label="View image 1 of 5">
-          <img src="assets/hero-1.jpeg" alt="Lentor Gardens Residences — Artist's Impression" loading="lazy" />
+          <img src="assets/hero-1.jpeg" alt="{{PROJECT_NAME}} — Artist's Impression" loading="lazy" />
         </div>
         <div class="gallery-item" data-index="1" role="button" tabindex="0" aria-label="View image 2 of 5">
-          <img src="assets/hero-2.jpeg" alt="Lentor Gardens Residences — Artist's Impression" loading="lazy" />
+          <img src="assets/hero-2.jpeg" alt="{{PROJECT_NAME}} — Artist's Impression" loading="lazy" />
         </div>
         <div class="gallery-item" data-index="2" role="button" tabindex="0" aria-label="View image 3 of 5">
-          <img src="assets/hero-3.jpeg" alt="Lentor Gardens Residences — Artist's Impression" loading="lazy" />
+          <img src="assets/hero-3.jpeg" alt="{{PROJECT_NAME}} — Artist's Impression" loading="lazy" />
         </div>
         <div class="gallery-item" data-index="3" role="button" tabindex="0" aria-label="View image 4 of 5">
-          <img src="assets/impression-1.jpeg" alt="Lentor Gardens Residences — Artist's Impression" loading="lazy" />
+          <img src="assets/impression-1.jpeg" alt="{{PROJECT_NAME}} — Artist's Impression" loading="lazy" />
         </div>
         <div class="gallery-item" data-index="4" role="button" tabindex="0" aria-label="View image 5 of 5">
-          <img src="assets/impressions-2.jpeg" alt="Lentor Gardens Residences — Artist's Impression" loading="lazy" />
+          <img src="assets/impressions-2.jpeg" alt="{{PROJECT_NAME}} — Artist's Impression" loading="lazy" />
         </div>
       </div>
       <p class="gallery-caption">Artist's Impressions — For Illustrative Purposes Only</p>
@@ -1611,7 +1608,7 @@
               <div class="consent full">
                 <input type="checkbox" id="consent" name="consent" required />
                 <label for="consent" style="font-weight:400; letter-spacing:0; text-transform:none; color:var(--muted); font-size:13px; margin:0;">
-                  I consent to being contacted by the appointed marketing team for Lentor Gardens Residences regarding this project. I have read and agreed to the <a href="#">Privacy Policy</a>.
+                  I consent to being contacted by the appointed marketing team for {{PROJECT_NAME}} regarding this project. I have read and agreed to the <a href="#">Privacy Policy</a>.
                 </label>
               </div>
             </div>
@@ -1632,7 +1629,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-inner">
-      <div class="footer-brand">Lentor Gardens Residences</div>
+      <div class="footer-brand">{{PROJECT_NAME}}</div>
       <div class="footer-links">
         <a href="#top">Home</a>
         <a href="#enquiry">Enquire</a>
@@ -1647,7 +1644,7 @@
       <div class="footer-meta">
         Marketed by Bernard Ng (Associate Group District Director) · CEA Reg No. R062382F · PropNex Realty Pte. Ltd. (L3008022J)
       </div>
-      <div class="footer-copy">Copyright &copy; 2026 | lentorgardensresidences.developerdirect.sg | All rights reserved</div>
+      <div class="footer-copy">Copyright &copy; 2026 | {{PROJECT_URL}} | All rights reserved</div>
     </div>
   </div>
 </footer>
@@ -1691,7 +1688,7 @@
       </button>
     </div>
     <div class="legal-body">
-      <p>This is the privacy policy ("Privacy Policy") for the Lentor Gardens Residences website (the "Site"). This Privacy Policy sets forth our policies regarding the collection, use and disclosure of certain information relating to your use of the Site. Your use of this Site signifies your understanding and acceptance of the terms of this Privacy Policy.</p>
+      <p>This is the privacy policy ("Privacy Policy") for the {{PROJECT_NAME}} website (the "Site"). This Privacy Policy sets forth our policies regarding the collection, use and disclosure of certain information relating to your use of the Site. Your use of this Site signifies your understanding and acceptance of the terms of this Privacy Policy.</p>
 
       <p>We recognise the importance of protecting your privacy and our Privacy Policy is designed to assist you in understanding how we collect, use and safeguard the personal information you provide to us, and to assist you in making informed decisions when using the Site. This Privacy Policy will be continuously assessed against new technologies, business practices and our clients' needs. As we update and diversify our products and services, this Privacy Policy may evolve. Please check this page for updates periodically.</p>
 
@@ -1737,7 +1734,7 @@
       </svg>
     </div>
     <h3 id="modalTitle">Thanks for submitting!</h3>
-    <p>We'll be in touch shortly with the indicative price list, floor plans and showflat appointment availability for Lentor Gardens Residences.</p>
+    <p>We'll be in touch shortly with the indicative price list, floor plans and showflat appointment availability for {{PROJECT_NAME}}.</p>
     <div class="modal-actions">
       <button type="button" class="btn btn-dark" id="backHomeBtn">Back to Home</button>
       <a href="#" class="btn btn-secondary" id="modalWaBtn" target="_blank" rel="noopener">Chat on WhatsApp</a>
@@ -1907,7 +1904,7 @@
       submitBtn.disabled = true;
       submitBtn.textContent = 'Submitting…';
 
-      await submitLead('Lentor Gardens Residences', {
+      await submitLead('{{PROJECT_NAME}}', {
         fullName: document.getElementById('fullName').value.trim(),
         phoneNumber: document.getElementById('mobile').value.trim(),
         email: document.getElementById('email').value.trim(),
@@ -1917,7 +1914,7 @@
         message: document.getElementById('message').value.trim(),
       });
 
-      if (window.location.hostname !== 'lentorgarden.sg' && window.location.hostname !== 'www.lentorgarden.sg') {
+      if (true) {
         gtag('event', 'conversion', { send_to: 'AW-734891155/8of4CNuCpbMcEJOZtt4C' });
       }
       openModal();
@@ -2032,11 +2029,11 @@
 <script>
   (function() {
     const images = [
-      { src: 'assets/hero-1.jpeg', alt: "Lentor Gardens Residences — Artist's Impression" },
-      { src: 'assets/hero-2.jpeg', alt: "Lentor Gardens Residences — Artist's Impression" },
-      { src: 'assets/hero-3.jpeg', alt: "Lentor Gardens Residences — Artist's Impression" },
-      { src: 'assets/impression-1.jpeg', alt: "Lentor Gardens Residences — Artist's Impression" },
-      { src: 'assets/impressions-2.jpeg', alt: "Lentor Gardens Residences — Artist's Impression" },
+      { src: 'assets/hero-1.jpeg', alt: "{{PROJECT_NAME}} — Artist's Impression" },
+      { src: 'assets/hero-2.jpeg', alt: "{{PROJECT_NAME}} — Artist's Impression" },
+      { src: 'assets/hero-3.jpeg', alt: "{{PROJECT_NAME}} — Artist's Impression" },
+      { src: 'assets/impression-1.jpeg', alt: "{{PROJECT_NAME}} — Artist's Impression" },
+      { src: 'assets/impressions-2.jpeg', alt: "{{PROJECT_NAME}} — Artist's Impression" },
     ];
 
     const lightbox = document.getElementById('galleryLightbox');
