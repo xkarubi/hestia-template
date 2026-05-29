@@ -1,15 +1,16 @@
 # CLAUDE.md
 
-> Instructions for Claude (and other AI assistants) when working on the Lentor Gardens Residences landing page.
+> Instructions for Claude (and other AI assistants) when working on the Thomson Reserve landing page.
 
 ## Project at a glance
 
-Single-file static HTML landing page for **Lentor Gardens Residences**, a 99-year leasehold residential development at Lentor Garden, District 26 (Upper Thomson / Mandai), Singapore. Developed by Kingsford Development. Built for lead generation — the goal is showflat appointment bookings, not closing sales on the page.
+Single-file static HTML landing page for **Thomson Reserve**, a 99-year leasehold residential development at Bright Hill Drive, District 20, Singapore. Developed by UOL Group, Singapore Land Group & CapitaLand. Built for lead generation — the goal is showflat appointment bookings, not closing sales on the page.
 
 ```
 project root/
 ├── index.html           # the entire site (~1,800 lines)
 ├── assets/              # all photographic assets
+├── config.js            # contact details and WhatsApp prefill
 ├── CLAUDE.md
 └── PRD.md
 ```
@@ -18,83 +19,54 @@ project root/
 
 | Field | Detail |
 |---|---|
-| Project name | Lentor Gardens Residences |
-| Developer | Kingsford Development (Kingsford Lentor Project Pte Ltd) |
-| Address | Lentor Garden, District 26 |
+| Project name | Thomson Reserve |
+| Developer | UOL Group, Singapore Land Group & CapitaLand |
+| Address | Bright Hill Drive, District 20 |
 | Tenure | 99-year leasehold |
-| Site area | ~20,639 sqm (~222,161 sqft) |
-| Total units | 499 residential units |
-| Building config | 4 blocks — 3 × 16-storey, 1 × 8-storey |
-| Retail | Ground-floor retail + integrated childcare |
-| Nearest MRT | Lentor (TE5, Thomson–East Coast Line) — ~5 min walk |
-| Est. TOP | Q4 2029 |
+| Total units | 1,240 residential units |
+| Nearest MRT | Bright Hill MRT (TE8/CR13, Thomson–East Coast Line) |
+| Est. TOP | 2030 |
+| Indicative pricing | From ~$2,300 psf (indicative) |
 
 ## Unit mix
 
+> Update this table with confirmed unit types, sizes and pricing before launch.
+
 | Type | Size | Pricing |
 |---|---|---|
-| 2-Bedroom | 646 – 732 sqft | POA (indicative) |
-| 3-Bedroom | 872 – 1,012 sqft | POA (indicative) |
-| 4-Bedroom | 1,184 – 1,356 sqft | POA (indicative) |
-| 5BR Strata Terrace | 1,496 sqft | POA (indicative) — limited units |
-| Retail | 463 – 474 sqft | Not for residential sale |
+| TBC | TBC | From ~$2,300 psf (indicative) |
 
 All pricing must be labelled **"indicative"** until the official price list is released.
-
-## Location proximity
-
-**Transit:** Lentor MRT TE5 (~5 min walk), Springleaf TE4 (~1 stop), Mayflower TE6 (~1 stop), Bright Hill TE7/CR13 (~2 stops, future interchange), CTE/SLE direct access
-
-**Schools (1–2 km):** Anderson Primary, Mayflower Primary, Ang Mo Kio Primary, CHIJ St. Nicholas Girls', Presbyterian High, Yio Chu Kang Secondary, Nanyang Polytechnic
-
-**Lifestyle:** Lentor Modern Mall (adjacent), Lentor Hillock Park (adjacent), Thomson Nature Park, Lower Peirce Reservoir, Central Catchment Nature Reserve, Thomson Plaza (~10 min drive), AMK Hub (~10 min drive), Orchard/CBD (~15 min drive)
 
 ## Marketing agent
 
 ```
-Vevien Ong (Associate District Director) · CEA Reg No. R060512G · PropNex Realty Pte. Ltd. (L3008022J)
+TBC — update before any public link is shared
 ```
 
 Set in: footer `.footer-meta` and disclaimer modal `#legalDisclaimer`.
 
 ## Contact number
 
-Call / WhatsApp: `+6592239930`
+Call / WhatsApp: update `config.js` → `phone` and `whatsapp`
 
 ## Copy tone
 
-Nature-adjacent, grounded, community-focused. This is not an exclusivity play — 499 units is a mid-scale development. Lean into greenery, family value, and connectivity. Avoid launch hyperbole.
+Project-specific tone to be defined. General guidelines:
+- Lead with location, connectivity, and lifestyle value
+- Avoid generic launch hyperbole
+- All pricing must be labelled indicative
+- All renders must carry "Artist's Impression"
 
-- ✅ "Where the treetops begin and the city remains within reach."
-- ✅ "A considered address in Singapore's most quietly coveted corridor."
-- ❌ "Don't miss out on this once-in-a-lifetime opportunity!"
-- ❌ "Hottest new launch in D26!"
+## Design tokens (injected — do not revert)
 
-## Design tokens (confirmed — do not revert to blue)
-
-### Primary gold
 | Token | Value | Use |
 |---|---|---|
-| `--gold` | `#C4A467` | Logo, icons, eyebrow labels, accents |
-| `--gold-deep` | `#B8975A` | All buttons (bg), borders |
-| `--gold-dark` | `#8B6E3A` | Button hover states |
-| `--gold-light` | `#E8D9BB` | Tints, focus rings, highlights |
+| `--espresso` (primary) | `#1A2E1E` | Hero bg, headlines, dark sections |
+| `--cream` (secondary) | `#F5F0E8` | Section backgrounds, button text |
+| `--gold` (accent) | `#C4A050` | Buttons, borders, accents |
 
-### Neutrals
-| Token | Value | Use |
-|---|---|---|
-| `--espresso` | `#2C2825` | Hero bg, headlines, dark sections |
-| `--charcoal` | `#3E3A36` | Body text, nav, secondary dark |
-| `--warm-grey` | `#9E9590` | Subtext, labels (aliased as `--muted`) |
-| `--cream` | `#F5F1EC` | Section backgrounds, button text (aliased as `--bg`) |
-| `--pearl` | `#E8E4DF` | Dividers, card borders (aliased as `--line`) |
-| `--white` | `#FFFFFF` | Cards, forms (aliased as `--card`) |
-
-### Design rules
-- All buttons: `--gold-deep` bg + `--cream` text; hover → `--gold-dark`
-- Outline buttons: `--gold-deep` border + `--charcoal` text
-- Dark sections (hero, form, footer): `--espresso` → `--charcoal` gradient
-- No cool greys, no blue anywhere
+Heading font: **Cormorant Garamond** · Body font: **Jost**
 
 ## Code conventions
 
@@ -105,8 +77,8 @@ Core site lives in `index.html`. `config.js` is a deliberate companion file — 
 Holds runtime contact settings read by `index.html` on load:
 ```js
 const CONTACT = {
-  phone: '+6580865767',       // tel: links (.js-tel)
-  whatsapp: '6580865767',     // wa.me links (.js-wa)
+  phone: '+65XXXXXXXX',       // tel: links (.js-tel)
+  whatsapp: '65XXXXXXXX',     // wa.me links (.js-wa)
   waMessage: '…prefill text', // URL-encoded and appended to wa.me URL
 };
 ```
@@ -141,10 +113,10 @@ Fields: `fullName`, `phoneNumber`, `email`, `nationality`, `preferredUnit`, `pur
 
 ## Things that are deliberate — do not "fix" them
 
-1. Pricing shows **POA** — official price list not yet released. Do not invent prices.
+1. Pricing shows indicative / POA — official price list not yet released. Do not invent prices.
 2. Agent name and CEA number are placeholders — do not fill with made-up details.
 3. All imagery labelled "Artist's Impression" — do not remove these captions.
-4. Est. TOP is "Q4 2029" — label as estimated, never "guaranteed".
+4. Est. TOP is labelled as estimated, never "guaranteed".
 
 ## Things to fix if you spot them
 
@@ -157,7 +129,6 @@ Fields: `fullName`, `phoneNumber`, `email`, `nationality`, `preferredUnit`, `pur
 ## Local preview
 
 ```bash
-cd hestia-microsite/lentor-garden
 python3 -m http.server 8081
 # open http://localhost:8081
 ```
