@@ -1,0 +1,55 @@
+{
+  "projectName": "Thomson Reserve",
+  "projectUrl": "https://www.thomsonreserve.developerdirect.sg/",
+  "logoUrl": "assets/logo_white.png",
+  "primaryColor": "#1A2E1E",
+  "secondaryColor": "#F5F0E8",
+  "accentColor": "#C4A050",
+  "fontHeading": "Cormorant Garamond",
+  "fontBody": "Jost",
+  "fontHeadingUrl": "Cormorant+Garamond",
+  "fontBodyUrl": "Jost",
+  "tagline": "Your Reserve. Right in the Heart of Thomson.",
+  "developer": "UOL Group, Singapore Land & CapitaLand",
+  "district": "District 20",
+  "unitCount": "~1,240 (TBC)",
+  "tenure": "99-year leasehold",
+  "nearestMrt": "Upper Thomson MRT Station (TEL, walkable)",
+  "upcomingMrt": "Bright Hill MRT interchange (TEL/CRL, upcoming)",
+  "address": "Bright Hill Drive",
+  "estTop": "TBC",
+  "expectedLaunch": "Targeted Preview Oct 2026",
+  "landSize": "Approx 504,314 sqft",
+  "plotRatio": "2.1",
+  "landBidPrice": "$810 Million ($1,178 psf/ppr)",
+  "landCostNote": "RCR land cost below OCR",
+  "priceFrom": "Indicative pricing — TBC",
+  "projectDesc": "Thomson Reserve is a 99-year leasehold development in District 20 by UOL Group, Singapore Land & CapitaLand. ~1,240 units at Bright Hill Drive, next to Upper Thomson MRT Station and directly opposite Thomson Plaza. Targeted preview Oct 2026.",
+  "locationDesc": "Thomson Reserve sits next to Upper Thomson MRT Station (TEL), walkable today. The upcoming Bright Hill MRT interchange (TEL/CRL) connects you to a powerful cross-island network. Directly opposite, Thomson Plaza provides everyday convenience — while AMK Hub and Junction 8 are minutes away, and the Orchard and CBD corridor is in direct reach on the Thomson–East Coast Line.",
+  "lifestyleDesc": "Step outside to Upper Thomson's vibrant dining village — a delightful mix of local flavours and global tastes. Thomson Plaza sits directly opposite for everyday shopping and dining. Singapore Island Country Club offers premier golfing and recreational experiences, while Bishan-Ang Mo Kio Park and four other nature parks — Lower Peirce Reservoir, Windsor Nature Park, MacRitchie Reservoir Park, and Thomson Nature Park — put lush greenery right at your doorstep.",
+  "overviewDesc": "Thomson Reserve rises from the landmark $810 million en bloc acquisition of Thomson View Condominium — one of the most highly anticipated collective sales in recent history. Sitting on a sprawling 5-hectare estate with a land cost of $1,178 psf/ppr, this is a rare RCR development priced below OCR land rates. Backed by three blue-chip developers — UOL Group, Singapore Land & CapitaLand — it delivers over 1,200 residences of considered design in one of Singapore's most coveted growth corridors.",
+  "developerDesc": "The consortium behind Thomson Reserve — UOL Group, Singapore Land & CapitaLand — has delivered some of Singapore's most celebrated residential addresses: Skye At Holland, Parktown Residences, UPPERHOUSE at Orchard Boulevard, Meyer Blue, Watten House, and Lyndenwoods. Their combined expertise ensures premium design, efficient layouts, and long-term value for homeowners.",
+  "schools": [
+    { "name": "Ai Tong School", "distance": "Within 1km" },
+    { "name": "Catholic High School", "distance": "Within 1–2km" },
+    { "name": "CHIJ St Nicholas Girls' School", "distance": "Within 1–2km" },
+    { "name": "Eunoia Junior College", "distance": "Nearby" },
+    { "name": "Raffles Institution", "distance": "Nearby" }
+  ],
+  "natureParks": [
+    "Lower Peirce Reservoir Park",
+    "Bishan-Ang Mo Kio Park",
+    "Windsor Nature Park",
+    "MacRitchie Reservoir Park",
+    "Thomson Nature Park"
+  ],
+  "facilities": [
+    "Tennis Court", "Multi-Purpose Court", "Clubhouse", "BBQ Pavilion",
+    "Swimming Pool", "Kids Pool / Playzone", "Gym", "Pavilion",
+    "Playground", "Fitness Corner", "Pick Up & Drop Off"
+  ],
+  "developerTrackRecord": [
+    "Skye At Holland", "Parktown Residences", "UPPERHOUSE at Orchard Boulevard",
+    "Meyer Blue", "Watten House", "Lyndenwoods"
+  ]
+}
